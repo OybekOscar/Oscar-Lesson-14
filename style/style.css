@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url(../loading.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#loading {
+	position: fixed;
+  background-color: rgb(48, 47, 47);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	z-index: 100;
+	transition: 0.5s;
+}
+
+#loading.loading-none {
+  opacity: 0;
+  z-index: -1;
+  
+}
+
+
+.light header,.light .main-2,  .light .our, .light .main-3{
+    transition: 1s;
+    background: linear-gradient( rgb(255, 255, 255) , rgb(255, 255, 255), rgb(255, 255, 255));
+    
+}
+   
+   .light * {
+     color: rgb(0, 0, 0) !important;
+   }
+    #dark-light{
+        border: 0px;
+    }
+   .light .footer, .light .stop-shop {
+    background: none;
+    
+   }
+   {
+    background: linear-gradient( rgb(202, 198, 198) , rgb(255, 255, 255), rgb(216, 216, 216) 50%) !important;
+   }
+
+a{
+    font-size: 1em;
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: none;
+    color: #ffff;
+}
+button{
+    font-family: 'Orbitron', sans-serif;
+    padding: 16px 31px;
+}
+.navbar li{
+    margin-left: 60px;
+    display: inline-block;
+    list-style-type: none;
+}
+header{
+    transition: 1s;
+    background: linear-gradient(-90deg, rgba(0,212,255,1) 50%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 50%);
+}
+.main-2{
+    background-color: black;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1320px;
+}
+.navbar{
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar div{
+    display: flex;
+
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+}
+.navbar-right button{
+    margin-left: 30px;
+    background: transparent;
+    border: 2px solid #ffff;
+    color: #ffff;
+}
+#img{
+    width: 100%;
+}
+.main-left-1 {
+    display: flex;
+    align-items: center;
+    margin-top: 225px;
+}
+.main-left-1 h3 ,.item-stop h3{
+    font-family: 'Orbitron';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+text-transform: uppercase;
+color: #57B8FF;
+}
+#shop,#shopp{
+    margin-bottom: 130px;
+}
+#p{
+    margin-top: 30px;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #57B8FF;
+}
+#main-3{
+    margin-top: 450px;
+}
+#pp{
+    margin-top: 20px;
+    margin-bottom: 38px;
+    font-family: 'Orbitron';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 34px;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+#h3{
+    font-family: 'Orbitron';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 46px;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.main-left h1,.item-stop h1 {
+    
+    margin-top: 17px;
+    font-family: 'Orbitron';
+font-style: normal;
+font-weight: 400;
+font-size: 4.5em;
+line-height: 86px;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.footer-main h2{
+    padding-top: 126px;
+    font-family: 'Orbitron';
+font-style: normal;
+font-weight: 400;
+font-size: 4.5em;
+line-height: 86px;
+text-transform: capitalize;
+color: #000000;
+}
+.main-left p,.item-stop p ,.footer-main p{
+    margin-top: 45px;
+    font-family: 'Orbitron';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+color: #999999;
+}
+.main-left button{
+    margin-bottom: 250px;
+    margin-top: 53px;
+    padding: 21px 34px;
+    cursor: pointer;
+    background: transparent;
+    color: #ffff;
+}
+.main-left button:hover{
+    transition: .7s;
+    background-color: #57B8FF;;
+}
+.main-left{
+width: 100%;
+}
+.main-right{
+    margin-top: 214px;
+    width: 100%;
+}
+.main-right img{
+    width: 100%;
+}
+.main{
+    display: flex;
+}
+
+.main-3-item div{
+    max-width: 312px;
+}
+
+.main-3-item{
+    display: flex;
+}
+.our{
+    transition: 1s;
+    background: linear-gradient( rgb(253, 208, 74, 1) , rgb(255, 255, 255), rgb(253, 208, 74, 1) 50%);
+    
+}
+
+.item-our h2{
+    padding-top: 128px;
+    font-family: 'Orbitron';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+text-align: center;
+text-transform: capitalize;
+color: black;
+}
+.item-our p{
+    margin-top: 44px;
+    font-family: 'Orbitron';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #555555;
+}
+.item-our div{
+    text-align: center;
+    margin-top: 41px;
+    padding-bottom: 130px;
+}
+.item-our div img{
+    margin-left: 20px;
+    transition: .7s;
+}
+.item-our div img:hover{
+    transform: rotate(360deg);
+}
+.stop-shop{
+    background: url(../Images/bagraund-stop-shop.png);
+    background-size: cover;
+}
+
+
+.item-stop h3::before {
+    content: url(../Images/fire.png);
+}
+.item-stop-shoop h2::before{
+    content: url(../Images/shop.png);
+}
+.item-stop-shoop h2{
+    padding-left: 87px;
+    text-align: left;
+    padding-top: 35px;
+ font-family: 'Orbitron';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 42px;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.item-stop-shoop p{
+    padding-left: 87px;
+    text-align: left;
+    padding-bottom: 32px;
+}
+.item-stop{
+    text-align: center;
+}
+.item-shop{
+    display: flex;
+}
+.item-stop-shoop{
+    margin-top: 64px;
+    margin-left: 35px;
+    width: 642px;
+    background: rgba(255, 255, 255, 0.15);
+border-radius: 20px;
+}
+.item-stop h3{
+    padding-top: 136px;
+}
+.item-stop h1{
+    margin-top: 22px;
+}
+.item-stop p{
+    margin-top: 39px;
+}
+.games{
+    display: flex;
+    position: relative;
+}
+.item-games{
+    position: relative;
+    height: 732px;
+    overflow: hidden;
+    
+}
+.main-3{
+    background: linear-gradient( rgb(0, 0, 0) , rgb(0, 0, 0), rgb(0, 0, 0) 50%);
+}
+.main-4{
+    display: flex;
+    position: absolute;
+    
+    
+}
+
+.main-4 div img {
+    position: relative;
+    top: 160%;
+    width: 100%; 
+    
+}
+.item-games{
+    
+}
+.item-games .img{
+    width: 100%;
+    height: 100%;
+    transition: 3s;
+    
+    
+}
+.item-games .img:hover{
+    transform: scale(5);
+}
+input:focus,
+textarea:focus {
+  outline: none;
+}
+.form input{
+    
+padding: 0 20px;
+  height: 50px;
+  width: 50%;
+  border-right: 0px;
+  border: 1px solid #cccccc;
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: left;
+}
+
+.form{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form button{
+    text-align: center;
+    background-color: #57B8FF;
+  color: white;
+  padding: 0 20px;
+  height: 50px;
+  border-left: 0px;
+  cursor: pointer;
+  border: 1px solid #cccccc;
+}
+footer{
+    text-align: center;
+}
+.footer{
+   
+    background-image: url(/Images/footer.png);
+}
+
+
+
+@media(max-width : 1300px){
+    .games,.main-4{
+       align-items: center;
+       justify-content: center;
+        flex-wrap: wrap;
+    }
+   
+    
+}
+@media(max-width : 1300px){
+#main-3-3{
+    display: flex;
+    flex-direction: column;
+}
+
+}
+@media(max-width : 950px){
+    #shopp {
+        margin-bottom: 0;
+    }
+    .item-shop{
+        display: flex;
+        flex-direction: column;
+    }
+    .lii {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width : 888px){
+    .main-left h1{
+        font-size: 60px;
+    }
+}
+@media(max-width : 750px){
+    .item-stop-shoop{
+        width: 450 px;
+        height: 100%;
+    }
+    .main-left h1{
+        font-size: 45px;
+    }
+}
+@media(max-width : 726px){
+    .main-left button{
+        margin: 0;
+    }
+}
+@media(max-width : 650px){
+    .main-left h1{
+        font-size: 30px;
+    }
+}
+@media(max-width : 500px){
+    .main-left-1{
+        margin-top: 0;
+    }
+    .main{
+        display: block;
+    }
+    header{
+        background: linear-gradient(180deg, rgba(0,212,255,1) 50%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 50%);
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .main-3-item{
+        flex-direction: column;
+    }
+}
